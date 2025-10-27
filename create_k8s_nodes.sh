@@ -4,7 +4,7 @@ set -e
 # ======================
 # General configuration (customizable)
 # ======================
-SSH_KEY="ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIO37z8Cd50vjiUU6x58yfE3DxeBIuB3BVYhDVzz7gdG8 homelab@viset.vn"  # SSH public key
+SSH_KEY="ssh-ed25519 332423 lab@test"  # SSH public key CHANGE_THIS
 BASE_IMG="ubuntu-22.04.qcow2"  # Base cloud image
 DISK_SIZE_GB=40                 # Disk size per VM
 NET="default"                   # libvirt network
